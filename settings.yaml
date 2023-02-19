@@ -1,0 +1,23 @@
+GENERAL:
+  seed: 17
+
+SAMPLES:
+  num_samples: 100 
+  mean: 1.5
+  variance: 0.25
+
+TWEAKED_CDF:
+  gamma: 1.0
+  delta: 1.0 #0.25
+
+COST_FUNCTION:
+  alpha: 1.5
+
+UTILITY_FUNCTION:
+  beta: 0.3
+  tau: 5.0
+
+EQUILIBRIUM:
+  max_iterations: 1000
+  step_size: 1e-4
+  convergence_tolerance: 1e-4
