@@ -3,9 +3,10 @@ module MarketClearing
 using JuMP
 using Ipopt
 using CSV
-using DataFrames
 using LinearAlgebra
 using SCIP
+using Random
+using Distributions
 
 include("./Assets.jl")
 include("./Data.jl")
